@@ -1,12 +1,16 @@
-# SmartSamachar
+# news_app
 
-![login   signup](https://github.com/shreyaa2410/SmartSamachar/assets/65820533/e53a524e-4cfc-4149-ad39-ed7a1cb0f3fd)
+A new Flutter project.
 
+## Getting Started
 
-![invalid   reset password](https://github.com/shreyaa2410/SmartSamachar/assets/65820533/b448c1d1-7332-4d6f-abbc-b131d905f33e)
+This project is a starting point for a Flutter application.
 
+A few resources to get you started if this is your first Flutter project:
 
-![home page   specific news view](https://github.com/shreyaa2410/SmartSamachar/assets/65820533/5cddbd8e-27cd-4edd-bdfd-7904ff8ee529)
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-
-![splashscreen   catagory news](https://github.com/shreyaa2410/SmartSamachar/assets/65820533/572ed3d4-3176-454b-a4f2-4ad3e487ec20)
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
