@@ -7,7 +7,7 @@ class News {
   List<ArticleModel> news = [];
   Future<void> getNews() async {
     var url = Uri.parse(
-        "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=d449a29289a3483a8d92b052a9453fb7");
+        "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=Your API KEY");
 
     http.Response response = await http.get(url);
     var jsonData = jsonDecode(response.body);
@@ -33,7 +33,7 @@ class News {
 //   List<ArticleModel> news = [];
 //   Future<void> getNews(String value) async {
 //     var url = Uri.parse(
-//         "https://newsapi.org/v2/top-headlines?country=$value&category=business&apiKey=d449a29289a3483a8d92b052a9453fb7");
+//         "https://newsapi.org/v2/top-headlines?country=$value&category=business&apiKey=Your API KEY");
 
 //     http.Response response = await http.get(url);
 //     var jsonData = jsonDecode(response.body);
@@ -59,7 +59,7 @@ class CatagoryNews {
   List<ArticleModel> news = [];
   Future<void> getNews(String Catagory) async {
     var url = Uri.parse(
-        "https://newsapi.org/v2/top-headlines?country=in&category=$Catagory&apiKey=d449a29289a3483a8d92b052a9453fb7");
+        "https://newsapi.org/v2/top-headlines?country=in&category=$Catagory&apiKey=Your API KEY");
 
     http.Response response = await http.get(url);
     var jsonData = jsonDecode(response.body);
